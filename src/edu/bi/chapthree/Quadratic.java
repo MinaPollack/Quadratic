@@ -12,6 +12,7 @@ public class Quadratic {
         int a = console.nextInt();
         System.out.print("b = ? ");
         int b = console.nextInt();
+        System.out.println("c must be less than" + (Math.pow(b,2) / (4 * a)));
         System.out.print("c = ? ");
         int c = console.nextInt();
         System.out.println();
